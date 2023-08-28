@@ -9,6 +9,10 @@ body {
   padding: 0 30px;
   margin: 0 auto;
 }
+.title-1 {
+  font-size: 34px;
+  font-weight: 600;
+}
 
 /* Header */
 .header {
@@ -63,6 +67,10 @@ a:hover {
   font-weight: 600;
   font-size: 44px;
 }
+.header-heading-description {
+  font-weight: 600;
+  font-size: 30px;
+}
 .header-content p {
   font-size: 18px;
 }
@@ -87,4 +95,79 @@ a:hover {
 }
 .service-card p {
   line-height: 2;
+}
+/* Portfolio */
+
+.portfolio {
+  padding: 90px 0;
+  background-color: rgb(225, 238, 249);
+}
+
+.portfolio-title {
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+.project {
+  text-align: center;
+}
+.project + .project {
+  margin-top: 90px;
+}
+.project-image {
+  margin-bottom: 40px;
+}
+.project-title {
+  font-family: 18px;
+}
+.project-title a {
+  color: black;
+  text-decoration: underline;
+}
+.project-title a:hover {
+  color: darkgray;
+}
+
+/* Footer */
+
+.contacts {
+  padding: 90px 0;
+  text-align: center;
+}
+.contacts-title {
+  margin-bottom: 40px;
+}
+.contacts-content {
+  margin: 0 auto 40px;
+  max-width: 480px;
+  font-size: 18px;
+}
+.contacts-button {
+  margin-bottom: 80px;
+}
+.btn {
+  display: inline-block;
+  padding: 7px 22px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+  background-color: #e1b640;
+  border-radius: 30px;
+  font-size: 18px;
+  color: black;
+  transition: background-color 0.2s ease-in, top 0.2s ease-in;
+}
+.btn:hover,
+.btn:focus {
+  background-color: black;
+  color: #e1b640;
+}
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+.contacts-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 40px;
+  margin-bottom: 50px;
 }
