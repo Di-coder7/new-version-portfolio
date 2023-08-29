@@ -6,6 +6,13 @@
     <title>Freelancer portfolio</title>
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/media.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+      integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <header class="header">
@@ -13,10 +20,11 @@
         <!-- Header nav -->
         <div class="header-nav">
           <a href="#!" class="logo">Doroshenko Daria 👩🏼‍💻</a>
-          <nav class="nav">
+
+          <nav id="nav" class="nav">
             <ul class="nav-list">
               <li class="nav-item">
-                <a href="index.html" class="nav-link"> Home </a>
+                <a href="#!" class="nav-link"> Home </a>
               </li>
               <li class="nav-item">
                 <a href="#!" class="nav-link"> Works </a>
@@ -31,11 +39,19 @@
                 <a href="#!" class="nav-link"> Contact </a>
               </li>
             </ul>
+            <button id="nav-btn" class="nav-button">
+              <img
+                id="nav-btn-img"
+                src="./img/icons/nav-open.svg"
+                alt="Nav button"
+              />
+            </button>
           </nav>
         </div>
+
         <!-- Header content -->
         <div class="header-row">
-          <div class="header-content">
+          <div class="header-content" data-aos="fade-up">
             <h1 class="header-heading">
               Daria Doroshenko <br />
               <span class="header-heading-description"
@@ -48,7 +64,7 @@
               you reach the desired result.
             </p>
           </div>
-          <div class="header-img">
+          <div class="header-img" data-aos="fade-left">
             <img
               src="./img/header/me.png"
               alt=""
@@ -65,7 +81,7 @@
     <section class="services">
       <div class="container">
         <div class="services-row">
-          <div class="service-card">
+          <div class="service-card" data-aos="fade-down">
             <img
               src="./img/services/01.svg"
               alt="UI/UX Design"
@@ -78,7 +94,7 @@
             </p>
           </div>
 
-          <div class="service-card">
+          <div class="service-card" data-aos="fade-down">
             <img
               src="./img/services/02.svg"
               alt="UI/UX Design"
@@ -91,7 +107,7 @@
             </p>
           </div>
 
-          <div class="service-card">
+          <div class="service-card" data-aos="fade-down">
             <img
               src="./img/services/03.svg"
               alt="UI/UX Design"
@@ -113,7 +129,7 @@
         <div class="portfolio-title">
           <h2 class="title-1">Portfolio</h2>
         </div>
-        <div class="project">
+        <div class="project" data-aos="flip-up">
           <img
             src="./img/portfolio/10.jpg"
             alt="Online fashion store"
@@ -124,7 +140,7 @@
           </h3>
         </div>
 
-        <div class="project">
+        <div class="project" data-aos="flip-up">
           <img
             src="./img/portfolio/11.jpg"
             alt="Reebok Store"
@@ -135,7 +151,7 @@
           </h3>
         </div>
 
-        <div class="project">
+        <div class="project" data-aos="flip-up">
           <img
             src="./img/portfolio/12.jpg"
             alt="Braun Landing Page"
@@ -153,15 +169,15 @@
         <div class="contacts-title">
           <h2 class="title-1">Contacts</h2>
         </div>
-        <div class="contacts-content">
+        <div class="contacts-content" data-aos="fade-down">
           <p>Want to know more or just chat? <br />You are welcome!</p>
         </div>
-        <div class="contacts-button">
+        <div class="contacts-button" data-aos="fade-down">
           <a href="mailto:doroshenko.dasha97@gmail.com" class="btn"
             >Send message</a
           >
         </div>
-        <div class="contacts-social">
+        <div class="contacts-social" data-aos="zoom-in">
           <a href="https://www.linkedin.com/in/daria-doroshenko-031616256/"
             ><img src="./img/Social/LinkedIn.svg" alt="LinkedIn"
           /></a>
@@ -181,7 +197,12 @@
         </div>
       </div>
     </footer>
-
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+      integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script src="./js/main.js"></script>
   </body>
 </html>
