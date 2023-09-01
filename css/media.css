@@ -1,4 +1,7 @@
 @media (max-width: 1230px) {
+  .logo {
+    font-size: 28px;
+  }
   .nav-list {
     display: none;
   }
@@ -53,6 +56,26 @@
   }
 }
 @media (max-width: 700px) {
+  .logo {
+    font-size: 24px;
+  }
+  .logo::after {
+    content: " ";
+    display: block;
+    width: 250px;
+    height: 6px;
+    background-color: #e1b640;
+    border-top-right-radius: 70%;
+    border-top-left-radius: 10%;
+  }
+  .nav-link {
+    color: darkgrey !important;
+  }
+  .nav-link:active,
+  .nav-link:hover {
+    color: black;
+  }
+
   .header-heading {
     font-size: 34px;
     line-height: 1.3;
