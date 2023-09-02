@@ -185,6 +185,7 @@ a:hover {
   max-width: 1230px;
   padding: 0 30px;
   margin: 0 auto;
+  position: relative;
 }
 .about-section-heading {
   margin-top: 50px;
@@ -192,11 +193,12 @@ a:hover {
 }
 .about-row {
   display: flex;
-  position: relative;
   justify-content: space-between;
   column-gap: 50px;
 }
-
+.heading-image-about {
+  max-width: 100%;
+}
 .heading-slogan-about {
   margin-right: 20px;
 }
@@ -229,14 +231,14 @@ a:hover {
 }
 .heading-content-about {
   position: absolute;
-  top: 380px;
-  left: 1000px;
+  top: 280px;
+  left: 530px;
   text-align: center;
   width: 650px;
 }
 .heading-content-about p {
   color: white;
-  font-size: 22px;
+  font-size: 20px;
   font-family: "Poppins", sans-serif;
   text-align: start;
 }
