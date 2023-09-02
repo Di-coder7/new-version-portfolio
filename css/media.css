@@ -161,6 +161,18 @@
     margin-left: 300px;
     margin-top: 30px;
   }
+  .works {
+    padding: 25px 0;
+  }
+  .header-heading {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 34px;
+  }
+  .contacts {
+    padding: 40px 0;
+    text-align: center;
+  }
 }
 
 @media (max-width: 860px) {
@@ -404,6 +416,19 @@
     margin-top: 30px;
     margin-bottom: 10px;
   }
+  /* Work page */
+  .works {
+    padding: 25px 0;
+  }
+  .header-heading {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 26px;
+  }
+  .contacts {
+    padding: 40px 0;
+    text-align: center;
+  }
 }
 @media (max-width: 500px) {
   /* About page */
@@ -525,5 +550,18 @@
     margin-left: 50px;
     margin-top: 30px;
     margin-bottom: 10px;
+  }
+  /* Work page */
+  .works {
+    padding: 20px 0;
+  }
+  .header-heading {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 24px;
+  }
+  .contacts {
+    padding: 30px 0;
+    text-align: center;
   }
 }
